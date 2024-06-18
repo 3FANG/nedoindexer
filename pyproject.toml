@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ton"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11.0 || >3.11.0,<4.0"
+pytoniq = "^0.1.35"
+asyncpg = "^0.29.0"
+python-dotenv = "^1.0.1"
+psutil = "^5.9.8"
+scalene = "^1.5.41"
+aiohttp = {extras = ["speedups"], version = "^3.9.5"}
+aiofiles = "^23.2.1"
+base58 = "^2.1.1"
+fake-useragent = "^1.5.1"
+aiolimiter = "^1.1.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
